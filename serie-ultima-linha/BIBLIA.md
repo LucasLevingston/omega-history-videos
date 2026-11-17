@@ -54,3 +54,4 @@ Estilo cinematográfico (contorno de nanquim, sombra em 2 tons, luz de recorte, 
 | EP | Status | Data de postagem | Pasta |
 | --- | --- | --- | --- |
 | 01 | produzido (17/11/2026) | postar 17/11/2026 | `projetos/ultima-linha/ep01` |
+| 02 | produzido (17/11/2026) | — | `projetos/ultima-linha/ep02` |

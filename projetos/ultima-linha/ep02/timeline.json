@@ -1,0 +1,78 @@
+{
+ "A": {
+  "semaforos": 0.68,
+  "amarelo": 4,
+  "bahia": 5.92,
+  "carro": 7.08,
+  "alarme": 8.76,
+  "dezenas": 10.42,
+  "barulho": 14.66,
+  "kaua": 14.92,
+  "perceber": 17.42,
+  "farois": 19.64,
+  "som": 21.38,
+  "somEnd": 21.58,
+  "desligou": 22.98,
+  "motor": 23.64,
+  "morto": 26.82,
+  "doze": 28.32,
+  "silencio": 30.32,
+  "passos": 34.54,
+  "asfalto": 36.26,
+  "quando": 37.14,
+  "embaixo": 38.16,
+  "relogio": 38.92,
+  "apitou": 40.1,
+  "cheia": 41.5,
+  "conta": 43.46,
+  "fazia": 45.32,
+  "quarenta": 45.84,
+  "mordida": 47.32,
+  "evoce": 48.22,
+  "coragem": 48.92,
+  "end": 51.54
+ },
+ "shots": [
+  {
+   "id": "cruzamento",
+   "t0": 0,
+   "dis": 0,
+   "labels": [
+    0.68,
+    5.92
+   ]
+  },
+  {
+   "id": "kaua",
+   "t0": 14.62,
+   "dis": 0.55,
+   "labels": [
+    21.38
+   ]
+  },
+  {
+   "id": "descida",
+   "t0": 22.68,
+   "dis": 0.6,
+   "labels": [
+    23.64,
+    28.32
+   ]
+  },
+  {
+   "id": "relogio",
+   "t0": 36.89,
+   "dis": 0.55,
+   "labels": [
+    40.1,
+    45.84
+   ]
+  },
+  {
+   "id": "pergunta",
+   "t0": 47.87,
+   "dis": 0.45,
+   "labels": []
+  }
+ ]
+}
