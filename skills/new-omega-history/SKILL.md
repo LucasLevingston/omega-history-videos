@@ -11,9 +11,9 @@ O canal publica séries originais de ficção em Shorts verticais (45 episódios
 
 1. `add_repo` LucasLevingston/omega-history-videos (push) e `git clone --depth 1` em `/home/claude/omega-history-videos` (REPO). `git pull` antes de escolher o episódio.
 2. Ler `REPO/SERIE_ATUAL.md` (qual série, pasta, doc) e, na pasta da série, `BIBLIA.md` (elenco, regras do mundo, registro de produção) e `ROTEIROS.md`.
-3. Voz: `python3 REPO/engine/py/voz.py setup` (VoxCPM2, semente fixa **20251112**, descrição de narrador grave contador de histórias, referência criada uma vez em `engine/vozes/narrador.wav`). Nunca trocar semente, descrição nem referência, em nenhuma série. Se a voz falhar, parar e avisar com o erro exato, sem usar outra voz.
+3. Voz: **VoiceStudio (OmniVoice), voz "Lucas"**, masculina e grave (~88 Hz): `python3 REPO/engine/py/voicestudio.py setup`, referência fixa `engine/vozes/lucas.wav` + `lucas.txt` (autor iluucasz, licença CC BY 4.0, créditos em `engine/vozes/CREDITOS.md`). Nunca trocar a referência, em nenhuma série. Se a voz falhar, parar e avisar com o erro exato, sem usar outra voz. (A VoxCPM2 com semente 20251112 foi descartada em 17/11/2026: saía aguda, ~250 Hz.)
 4. `pip install --break-system-packages faster-whisper playwright` se faltar; ffmpeg já existe.
-5. Disco: ~20 GB livres (modelo 5 GB + swap 8 GB). Não apagar `/tmp/pip-*` enquanto um pip estiver rodando.
+5. Disco: ~10 GB livres (torch + modelo OmniVoice). Não apagar `/tmp/pip-*` enquanto um pip estiver rodando.
 
 ## 1. Qual episódio
 
@@ -31,7 +31,7 @@ Quando o último episódio da série atual já foi produzido (ou o usuário pedi
 
 ## 2. Voz (uma geração só)
 
-`cd REPO && nohup python3 engine/py/voz.py $PWD/projetos/<serie>/epNN short > /tmp/vox_gen.log 2>&1 &` (~7 min por episódio de ~45 s, mais ~5 min na primeira vez para carregar o modelo). Depois: `python3 engine/py/words.py projetos/<serie>/epNN short` → `audio/words.json`; montar `web/words.js` juntando sufixos que o whisper separa ("meia" + "-noite"), desfazendo horários que ele converte ("12h17" → "duas e dezessete") e corrigindo nomes ouvidos errado ("Fonsu" → "Afonso") só na legenda.
+`cd REPO/projetos/<serie>/epNN && nohup python3 REPO/engine/py/voicestudio.py $PWD short > /tmp/vs.log 2>&1 &` (~10–13 min por episódio de ~45 s na nuvem; ritmo ~2,6 palavras/s). Depois: `python3 engine/py/words.py projetos/<serie>/epNN short` → `audio/words.json`; montar `web/words.js` juntando sufixos que o whisper separa ("meia" + "-noite"), desfazendo horários que ele converte ("12h17" → "duas e dezessete") e corrigindo nomes ouvidos errado ("Fonsu" → "Afonso") só na legenda.
 
 ## 3. Cenas (`projetos/<serie>/epNN/web/`)
 
@@ -53,17 +53,19 @@ Quando o último episódio da série atual já foi produzido (ou o usuário pedi
 
 ## 6. Entrega
 
-- Vídeo e thumb com SendUserFile; textos prontos: título (até ~70 caracteres, com "EP. NN"), descrição para TikTok, Instagram e YouTube Shorts com hashtags (#NewOmegaHistory + nome da série + gênero, #Shorts / #fyp) e a pergunta do episódio.
+- Vídeo e thumb com SendUserFile; textos prontos: título (até ~70 caracteres, com "EP. NN"), descrição para TikTok, Instagram e YouTube Shorts com hashtags (#NewOmegaHistory + nome da série + gênero, #Shorts / #fyp) e a pergunta do episódio. Toda descrição leva, antes das hashtags, a linha de crédito obrigatória "🎙️ Voz: Lucas por iluucasz (CC BY 4.0)".
 - Postagem: pelos agendadores das próprias redes (YouTube Studio, TikTok, Meta Business Suite); só agendar se o usuário pedir.
 - Atualizar o "Registro de produção" da bíblia, salvar `POST.md` na pasta do episódio e fazer commit/push (sem `frames/`).
 
 ## 7. Regras
 
-- Uma voz só (semente 20251112) em todas as séries.
+- Uma voz só (VoiceStudio "Lucas") em todas as séries, narração grave de narrador; nunca regerar a voz por conta própria.
 - Nada de violência gráfica: a ameaça vem do som, da sombra e da reação.
 - Continuidade: o que aconteceu num episódio aparece igual no seguinte; conferir a bíblia.
 - Cada correção do usuário vira regra nova em "Regras aprendidas" e na bíblia.
 
 ## Regras aprendidas
+
+- (17/11/2026) A narração tem que ser voz masculina grossa de narrador: voz fixa VoiceStudio "Lucas" (não usar VoxCPM2).
 
 - (ÚLTIMA LINHA, ep. 01) Barras do ônibus não podem passar na frente de um rosto em close: usar `noPoles` no plano.

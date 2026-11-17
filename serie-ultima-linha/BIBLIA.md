@@ -4,6 +4,7 @@ Bento Arruda, 34 anos, motorista da linha noturna de Belo Horizonte, está com s
 
 - **Canal:** New Omega History (série original de ficção; não é história real, então não precisa de PESQUISA.md nem de fontes).
 - **Formato:** 45 Shorts verticais 9:16 de 45–60 s (~110–150 palavras), em 5 arcos de 9. Gancho nos 3 primeiros segundos → acontecimentos → gancho para o próximo + pergunta nos comentários. Na tela, "EP. NN/45" no canto, nunca narrado.
+- **Voz:** VoiceStudio "Lucas" (masculina, grave), crédito "🎙️ Voz: Lucas por iluucasz (CC BY 4.0)" em toda descrição.
 - **Roteiros:** `ROTEIROS.md` (cópia do doc https://claude.ai/artifact/56SDekp8fx4AhR87ABjXNk).
 
 ## Elenco (ids no `engine/cine/personagem.js`)

@@ -6,6 +6,7 @@
 Duas e dezessete da manhã, último ônibus da noite, e um segurança entra jurando que foi mordido por um cachorro… 🧟🚌
 Você deixaria ele continuar no ônibus? Comenta 👇
 EP. 01/45 — segue pra ver o próximo
+🎙️ Voz: Lucas por iluucasz (CC BY 4.0)
 #UltimaLinha #NewOmegaHistory #Zumbi #ApocalipseZumbi #Suspense #SerieDeTerror #Animacao #Terror #fyp #foryou
 
 ## Instagram (Reels)
@@ -16,6 +17,8 @@ EP. 01/45 — Fora do ponto 🧟🚌
 E você, deixaria esse homem continuar no ônibus? Comenta 👇
 Segue o perfil pra não perder o EP. 02.
 
+🎙️ Voz: Lucas por iluucasz (CC BY 4.0)
+
 #UltimaLinha #NewOmegaHistory #Zumbi #ApocalipseZumbi #Suspense #SerieDeTerror #Animacao #Terror #Reels #BeloHorizonte
 
 ## YouTube Shorts (descrição)
@@ -23,5 +26,7 @@ Segue o perfil pra não perder o EP. 02.
 
 E você, deixaria esse homem continuar no ônibus? Comenta aqui 👇
 ÚLTIMA LINHA — série em 45 episódios. Inscreva-se pra ver o EP. 02.
+
+🎙️ Voz: Lucas por iluucasz (CC BY 4.0)
 
 #UltimaLinha #NewOmegaHistory #Zumbi #ApocalipseZumbi #Suspense #SerieDeTerror #Animacao #Shorts

@@ -6,7 +6,7 @@
 | `serie-ultima-linha/` | Série zumbi ÚLTIMA LINHA: `BIBLIA.md` (elenco, regras, registro de produção) e `ROTEIROS.md` (os 45 episódios narrados) |
 | `projetos/ultima-linha/epNN/` | Cada episódio: `script/`, `audio/`, `web/` (cenas em código), `mix.py`, `saida/` (vídeo + thumb), `POST.md` (textos de postagem) |
 | `engine/cine/` | Motor cinematográfico: `personagem.js` (boneco em peças com pivôs, sombra 2 tons, luz de recorte, elenco), `render.py` (quadros via Playwright), `sheet.py` (folha de conferência), grão, fontes |
-| `engine/py/` | Ferramentas herdadas do OUTRA REALIDADE: `voz.py` (VoxCPM2, **semente 20251112** do canal), `words.py` (tempos das palavras), entre outros |
+| `engine/py/` | Ferramentas herdadas do OUTRA REALIDADE: `voicestudio.py` (voz oficial do canal: VoiceStudio "Lucas", referência em `engine/vozes/lucas.wav`, CC BY 4.0 — crédito obrigatório nas descrições); `voz.py` (VoxCPM2, não usar), `words.py` (tempos das palavras), entre outros |
 | `referencias/short-imune-zumbi/` | O Short "E se você fosse o único imune a um vírus zumbi?" (OUTRA REALIDADE, 17/11/2026) que definiu o visual: cena, plano e roteiro |
 | `skills/new-omega-history/SKILL.md` | Skill do canal: próximo episódio da série atual e criação de uma série nova quando a atual acaba |
 | `SERIE_ATUAL.md` | Qual série está no ar e as já encerradas |

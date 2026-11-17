@@ -1,32 +1,32 @@
 {
  "A": {
-  "duas": 0.38,
-  "afonso": 4.94,
-  "seis": 5.96,
-  "quando": 7.3,
-  "seguranca": 7.68,
-  "braco": 10.58,
-  "jurando": 11.26,
-  "mordido": 12.32,
-  "cachorro": 13.24,
-  "cachorroEnd": 13.76,
-  "no": 14.62,
-  "oito": 16.26,
-  "nenhuma": 18.78,
-  "circulos": 21.48,
-  "chao": 25.14,
-  "foi": 26.02,
-  "radio": 26.88,
-  "chefe": 28.82,
-  "parar": 23.5,
-  "nenhum": 30.28,
-  "olhou": 33.74,
-  "retrovisor": 34.34,
-  "suando": 38.1,
-  "fundo": 39.88,
-  "evoce": 40.72,
-  "deixaria": 41.54,
-  "end": 44.24
+  "duas": 0.82,
+  "afonso": 5.8,
+  "seis": 7.08,
+  "quando": 9.1,
+  "seguranca": 9.62,
+  "braco": 12.76,
+  "jurando": 13.62,
+  "mordido": 14.7,
+  "cachorro": 15.62,
+  "cachorroEnd": 16.14,
+  "no": 16.84,
+  "oito": 18.5,
+  "nenhuma": 20.96,
+  "circulos": 23.6,
+  "chao": 27.9,
+  "foi": 28.75,
+  "radio": 29.68,
+  "chefe": 31.46,
+  "parar": 26.24,
+  "nenhum": 32.98,
+  "olhou": 36.36,
+  "retrovisor": 36.96,
+  "suando": 40.62,
+  "fundo": 42.34,
+  "evoce": 43.26,
+  "deixaria": 43.8,
+  "end": 46.1
  },
  "shots": [
   {
@@ -34,52 +34,52 @@
    "t0": 0,
    "dis": 0,
    "labels": [
-    0.38,
-    4.94
+    0.82,
+    5.8
    ]
   },
   {
    "id": "dentro",
-   "t0": 5.61,
+   "t0": 6.73,
    "dis": 0.6,
    "labels": [
-    5.96
+    7.08
    ]
   },
   {
    "id": "porta",
-   "t0": 7.2,
+   "t0": 9,
    "dis": 0,
    "labels": [
-    12.32
+    14.7
    ]
   },
   {
    "id": "ponto",
-   "t0": 14.42,
+   "t0": 16.64,
    "dis": 0.6,
    "labels": [
-    16.26,
-    18.78
+    18.5,
+    20.96
    ]
   },
   {
    "id": "radio",
-   "t0": 25.87,
+   "t0": 28.6,
    "dis": 0.5,
    "labels": [
-    28.82
+    31.46
    ]
   },
   {
    "id": "retrovisor",
-   "t0": 33.64,
+   "t0": 36.26,
    "dis": 0,
    "labels": []
   },
   {
    "id": "pergunta",
-   "t0": 40.42,
+   "t0": 42.96,
    "dis": 0.45,
    "labels": []
   }
