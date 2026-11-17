@@ -1,0 +1,142 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:C9;src:url(cinzel900.woff2)}
+@font-face{font-family:M8;src:url(mont800.woff2)}
+html,body{margin:0;background:transparent;overflow:hidden}
+</style></head><body>
+<svg id="svg" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#050a22"/><stop offset=".55" stop-color="#18245a"/><stop offset=".85" stop-color="#3b2d5c"/><stop offset="1" stop-color="#6a3a4a"/></linearGradient>
+<radialGradient id="gMoonHalo"><stop offset="0" stop-color="#dfe9ff" stop-opacity=".55"/><stop offset=".4" stop-color="#9fb8ff" stop-opacity=".18"/><stop offset="1" stop-color="#9fb8ff" stop-opacity="0"/></radialGradient>
+<linearGradient id="gBeam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d8e6ff" stop-opacity=".9"/><stop offset="1" stop-color="#9fbfff" stop-opacity="0"/></linearGradient>
+<linearGradient id="gGold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff0b0"/><stop offset=".45" stop-color="#f2b53a"/><stop offset="1" stop-color="#a8641a"/></linearGradient>
+<linearGradient id="gFog" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fa0d0" stop-opacity="0"/><stop offset="1" stop-color="#8fa0d0" stop-opacity=".45"/></linearGradient>
+<radialGradient id="gVig" cx=".5" cy=".5" r=".72"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".8"/></radialGradient>
+<radialGradient id="gFire"><stop offset="0" stop-color="#ff8a2a" stop-opacity=".55"/><stop offset="1" stop-color="#ff8a2a" stop-opacity="0"/></radialGradient>
+<filter id="fBlur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="16"/></filter>
+<filter id="fGlow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="10"/></filter>
+</defs><g id="root"></g></svg>
+<script src="../engine/cine/personagem.js"></script>
+<script>
+const { draw, POSES, mix, part, INK } = RIG;
+function rng(seed) { let s = seed >>> 0; return () => ((s = (s * 1664525 + 1013904223) >>> 0) / 4294967296); }
+const MOON = { dir: [-0.7, -0.7], rim: '#cfe2ff', rimW: 7 };
+const st = (d, base, dark, sh = 18, L = MOON) => part(d, [base, dark], { ...L, rim: '#b9cfff', rimW: 5 }, 0, sh);
+
+// ---------- monumentos ----------
+function pyramid(x, y, s) {
+  return `<g transform="translate(${x},${y}) scale(${s})">${st('M0,-520 L-640,0 L640,0 Z', '#4a4f7a', '#2a2d4f', 60)}
+${[...Array(9)].map((_, i) => `<line x1="${-60 - i * 64}" y1="${-460 + i * 58}" x2="${60 + i * 64}" y2="${-460 + i * 58}" stroke="${INK}" stroke-width="4" opacity=".55"/>`).join('')}
+<path d="M0,-520 L0,0" stroke="${INK}" stroke-width="6" opacity=".5"/></g>`;
+}
+function colosseum(x, y, s) {
+  let a = st('M-560,0 L-560,-330 C-480,-380 -200,-420 60,-420 L60,-500 C260,-500 420,-460 560,-400 L560,0 Z', '#5a5577', '#34304e', 30);
+  for (let r = 0; r < 3; r++) for (let i = 0; i < 11; i++) {
+    const ax = -520 + i * 98, ay = -60 - r * 110; if (r === 2 && i < 6) continue;
+    a += `<path d="M${ax},${ay} V${ay - 50} A28,28 0 0 1 ${ax + 56},${ay - 50} V${ay} Z" fill="#141530" stroke="${INK}" stroke-width="5"/>`;
+  }
+  return `<g transform="translate(${x},${y}) scale(${s})">${a}</g>`;
+}
+function castle(x, y, s) {
+  const tower = (tx, w, h) => st(`M${tx},0 V${-h} h${w * 0.18} v-40 h${w * 0.16} v40 h${w * 0.16} v-40 h${w * 0.16} v40 h${w * 0.16} v-40 h${w * 0.18} V${-h} V0 Z`, '#4d5274', '#2c2f4c', 18);
+  let c = st('M-380,0 V-260 H380 V0 Z', '#454a6c', '#272a45', 20) + tower(-460, 180, 480) + tower(280, 180, 440) + tower(-90, 180, 620);
+  c += `<path d="M-30,-480 h60 v-70 a30,30 0 0 0 -60,0 Z M-370,-330 h40 v-50 a20,20 0 0 0 -40,0 Z" fill="#ffcf6a" stroke="${INK}" stroke-width="5"/>`;
+  c += `<path d="M-50,0 V-110 A50,50 0 0 1 50,-110 V0 Z" fill="#120d1c" stroke="${INK}" stroke-width="6"/>`;
+  return `<g transform="translate(${x},${y}) scale(${s})">${c}</g>`;
+}
+function temple(x, y, s) {
+  let t = st('M-420,-360 L0,-500 L420,-360 Z', '#5b5b80', '#34345a', 16) + st('M-440,-360 H440 V-320 H-440 Z', '#555579', '#30304f', 8) + st('M-460,-40 H460 V0 H-460 Z', '#555579', '#30304f', 8);
+  for (let i = 0; i < 6; i++) { if (i === 4) { t += st(`M${-370 + i * 148},-40 V-150 L${-330 + i * 148},-180 L${-310 + i * 148},-40 Z`, '#64648a', '#3a3a5c', 10); continue; }
+    t += st(`M${-380 + i * 148},-40 V-320 H${-320 + i * 148} V-40 Z`, '#64648a', '#3a3a5c', 14); }
+  return `<g transform="translate(${x},${y}) scale(${s})">${t}</g>`;
+}
+function grave(x, y, s, rot = 0) {
+  return `<g transform="translate(${x},${y}) scale(${s}) rotate(${rot})">${st('M-60,0 V-130 A60,60 0 0 1 60,-130 V0 Z', '#6a6f8c', '#3d4160', 14)}<path d="M-6,-150 v60 M-26,-130 h40" stroke="${INK}" stroke-width="7"/></g>`;
+}
+function hand(x, y, s, rot = 0, skin = ['#93a882', '#62744f']) {
+  const L = { ...MOON, rim: '#d6f0c0', rimW: 6 };
+  return `<g transform="translate(${x},${y}) scale(${s}) rotate(${rot})">${part('M-40,40 L-34,-60 L-60,-120 C-66,-134 -48,-142 -40,-128 L-20,-96 L-26,-190 C-28,-206 -6,-208 -6,-192 L0,-110 L8,-206 C10,-222 32,-220 30,-204 L24,-110 L40,-188 C44,-204 64,-198 60,-182 L44,-96 L66,-150 C72,-164 90,-156 84,-142 L56,-50 L50,40 Z', skin, L, 0, 16)}
+<path d="M-38,10 L46,10 L50,40 L-40,40 Z" fill="#5a3b2a" stroke="${INK}" stroke-width="6"/></g>`;
+}
+function dirt(x, y, w) { return `<ellipse cx="${x}" cy="${y}" rx="${w}" ry="${w * 0.22}" fill="#1b1424" stroke="${INK}" stroke-width="6"/>` + [...Array(6)].map((_, i) => `<circle cx="${x - w * 0.8 + i * w * 0.32}" cy="${y - 6 - (i % 2) * 8}" r="${8 + (i % 3) * 4}" fill="#2a2030" stroke="${INK}" stroke-width="4"/>`).join(''); }
+
+// ---------- Ω emblema ----------
+const OMEGA = 'M-150,170 L-60,170 L-60,130 C-140,100 -190,30 -190,-50 C-190,-170 -100,-240 0,-240 C100,-240 190,-170 190,-50 C190,30 140,100 60,130 L60,170 L150,170 L150,215 L20,215 L20,95 C90,75 130,20 130,-50 C130,-140 75,-185 0,-185 C-75,-185 -130,-140 -130,-50 C-130,20 -90,75 -20,95 L-20,215 L-150,215 Z';
+function omega(x, y, s, withHand = true) {
+  const L = { dir: [-0.7, -0.7], rim: '#fff6d6', rimW: 8 };
+  let o = `<g transform="translate(${x},${y}) scale(${s})">`;
+  o += `<path d="${OMEGA}" fill="#ffb33a" opacity=".55" filter="url(#fGlow)" transform="scale(1.04)"/>`;
+  o += part(OMEGA, ['#f3b63c', '#9a5a17'], L, 0, 22);
+  o += `<path d="M-160,-40 l26,18 l-10,30 M150,-120 l-20,22 l8,26 M-40,-225 l14,26 l-12,18" stroke="#5a320c" stroke-width="5" fill="none" stroke-linecap="round"/>`;
+  // louros
+  for (const sx of [-1, 1]) for (let i = 0; i < 8; i++) {
+    const deg = 100 + i * 16, a = deg * Math.PI / 180, R = 255;
+    const lx = sx * -Math.cos(a) * R * -1, ly = Math.sin(a) * R * 0.95 + 10;
+    const px = sx < 0 ? Math.cos(a) * R : -Math.cos(a) * R;
+    o += `<g transform="translate(${px},${ly}) rotate(${sx < 0 ? deg + 90 : -(deg + 90)}) scale(${sx < 0 ? 1 : -1},1)">${part('M0,0 C14,-26 44,-34 66,-22 C46,-4 22,4 0,0 Z', ['#d9b048', '#7c5e17'], L, 0, 8)}</g>`;
+  }
+  if (withHand) o += hand(118, 236, 0.75, -14);
+  return o + '</g>';
+}
+// ---------- céu, lua, feixes, poeira, grão ----------
+function sky(w, h, mx, my, mr) {
+  const r = rng(3); let s = `<rect width="${w}" height="${h}" fill="url(#gSky)"/>`;
+  for (let i = 0; i < 220; i++) s += `<circle cx="${r() * w}" cy="${r() * h * 0.6}" r="${1 + r() * 2.4}" fill="#e6eeff" opacity="${0.3 + r() * 0.6}"/>`;
+  s += `<circle cx="${mx}" cy="${my}" r="${mr * 3.2}" fill="url(#gMoonHalo)"/>`;
+  s += `<circle cx="${mx}" cy="${my}" r="${mr}" fill="#eef3ff" stroke="${INK}" stroke-width="6"/><path d="M${mx - mr * 0.2},${my - mr * 0.5} a${mr * 0.18},${mr * 0.18} 0 1 0 1,0 M${mx + mr * 0.35},${my + mr * 0.1} a${mr * 0.12},${mr * 0.12} 0 1 0 1,0" fill="#cdd8f0"/>`;
+  return s;
+}
+function beams(list) { return list.map(([x1, x2, x3, x4, y1, y2]) => `<path d="M${x1},${y1} L${x2},${y1} L${x3},${y2} L${x4},${y2} Z" fill="url(#gBeam)" opacity=".22" style="mix-blend-mode:screen"/>`).join(''); }
+function dust(n, x0, y0, w, h, seed) { const r = rng(seed); let s = ''; for (let i = 0; i < n; i++) s += `<circle cx="${x0 + r() * w}" cy="${y0 + r() * h}" r="${1.5 + r() * 4}" fill="#eaf3ff" opacity="${0.2 + r() * 0.7}"/>`; return `<g style="mix-blend-mode:screen">${s}</g>`; }
+const grain = (w, h) => `<image href="grain0.png" width="${w}" height="${h}" preserveAspectRatio="none" opacity=".09" style="mix-blend-mode:overlay"/>`;
+const zombie = (who, x, y, s, k, flip) => draw({ who, pose: { ...mix(POSES.walkA, POSES.walkB, k), uaL: -78, faL: -12, uaR: -84, faR: -6, head: 12 }, face: { mouth: 0.5 }, light: { dir: [-0.7, -0.7], rim: '#cfe2ff', rimW: 7 }, x, y, scale: s, flip });
+const T = (txt, x, y, size, fill, font = 'C9', sw = 18, ls = 4) => `<text x="${x}" y="${y}" text-anchor="middle" font-family="${font}" font-size="${size}" letter-spacing="${ls}" fill="${fill}" stroke="${INK}" stroke-width="${sw}" stroke-linejoin="round" paint-order="stroke">${txt}</text>`;
+
+// ================= FOTO DE PERFIL (1080 × 1080, seguro em círculo) =================
+function avatar() {
+  const W = 1080, H = 1080; let s = sky(W, H, 760, 250, 120);
+  s += `<g opacity=".9">${pyramid(250, 820, 0.62)}${colosseum(830, 840, 0.55)}</g>`;
+  s += `<rect y="600" width="${W}" height="480" fill="url(#gFog)"/>`;
+  s += beams([[640, 860, 760, 360, 140, 1080]]) + dust(80, 300, 200, 600, 800, 5);
+  s += `<path d="M0,860 C300,820 700,840 1080,860 V1080 H0 Z" fill="#1d1a2e" stroke="${INK}" stroke-width="8"/>`;
+  s += grave(170, 930, 0.9, -8) + grave(920, 930, 0.85, 7);
+  s += dirt(250, 975, 70) + hand(250, 985, 0.55, -16) + dirt(860, 985, 70) + hand(860, 995, 0.5, 12);
+  s += omega(540, 470, 1.08);
+  s += `<path d="M150,770 C330,840 750,840 930,770 L960,860 C760,930 320,930 120,860 Z" fill="#2a0f12" stroke="${INK}" stroke-width="9"/>`;
+  s += `<path id="arc" d="M180,850 C380,905 700,905 900,850" fill="none"/>`;
+  s += `<text font-family="C9" font-size="52" letter-spacing="3" fill="url(#gGold)" stroke="${INK}" stroke-width="10" paint-order="stroke" text-anchor="middle"><textPath href="#arc" startOffset="50%">NEW OMEGA HISTORY</textPath></text>`;
+  s += grain(W, H) + `<rect width="${W}" height="${H}" fill="url(#gVig)"/>`;
+  return [W, H, s];
+}
+
+// ================= BANNER (2560 × 1440, área segura 1546 × 423 no centro) =================
+function banner() {
+  const W = 2560, H = 1440; let s = sky(W, H, 1980, 360, 150);
+  // fundo: monumentos de várias épocas
+  s += `<g opacity=".85">${pyramid(330, 1060, 0.95)}${temple(860, 1060, 0.9)}${colosseum(1700, 1070, 0.95)}${castle(2280, 1070, 0.9)}</g>`;
+  // brilho de incêndios
+  for (const fx of [600, 1280, 2050]) s += `<ellipse cx="${fx}" cy="1000" rx="260" ry="170" fill="url(#gFire)" style="mix-blend-mode:screen"/>`;
+  s += `<rect y="700" width="${W}" height="740" fill="url(#gFog)"/>`;
+  s += beams([[1820, 2120, 2300, 1300, 200, 1440], [1500, 1600, 1100, 700, 300, 1440]]) + dust(220, 600, 250, 1800, 1100, 9);
+  // chão
+  s += `<path d="M0,1080 C700,1040 1800,1060 2560,1080 V1440 H0 Z" fill="#1d1a2e" stroke="${INK}" stroke-width="9"/>`;
+  s += grave(180, 1170, 1.0, -8) + grave(2400, 1160, 1.05, 9) + grave(2210, 1190, 0.7, -5);
+  // horda de zumbis de várias épocas (laterais, fora do texto)
+  s += zombie('camponesa', 170, 905, 0.42, 0.2, false) + zombie('legionario', 400, 915, 0.46, 0.8, false) + zombie('porteiro', 2170, 905, 0.42, 0.5, true) + zombie('legionario', 2400, 915, 0.46, 0.1, true);
+  s += dirt(760, 1240, 80) + hand(760, 1250, 0.6, -14) + dirt(1830, 1250, 80) + hand(1830, 1262, 0.6, 14);
+  // frente desfocada
+  s += `<g filter="url(#fBlur)"><path d="M-40,1440 C40,1260 120,1180 220,1160 C180,1260 200,1360 260,1440 Z M2600,1440 C2520,1250 2440,1190 2320,1170 C2380,1270 2360,1370 2300,1440 Z" fill="#0c0a14"/></g>`;
+  // área segura: emblema + nome + frase
+  s += omega(820, 715, 0.7);
+  s += T('NEW OMEGA', 1545, 690, 132, 'url(#gGold)', 'C9', 20, 8);
+  s += T('HISTORY', 1545, 830, 132, '#efe6d4', 'C9', 20, 26);
+  s += T('O PASSADO COMO VOCÊ NUNCA VIU', 1545, 905, 40, '#ff9a5a', 'M8', 10, 6);
+  s += grain(W, H) + `<rect width="${W}" height="${H}" fill="url(#gVig)"/>`;
+  return [W, H, s];
+}
+const m = new URLSearchParams(location.search).get('m');
+function mark() { return [600, 600, omega(300, 270, 0.78, false) + T('NEW OMEGA HISTORY', 300, 585, 44, 'url(#gGold)', 'C9', 9, 2)]; }
+function mark2() { return [600, 600, omega(300, 300, 0.86, false)]; }
+const [W, H, s] = m === 'banner' ? banner() : m === 'mark' ? mark() : m === 'mark2' ? mark2() : avatar();
+const svg = document.getElementById('svg'); svg.setAttribute('width', W); svg.setAttribute('height', H); svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+document.getElementById('root').innerHTML = s;
+</script></body></html>
