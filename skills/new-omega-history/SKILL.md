@@ -25,7 +25,7 @@ O canal publica séries originais de ficção em Shorts verticais (45 episódios
 
 Quando o último episódio da série atual já foi produzido (ou o usuário pedir uma série nova):
 1. Criar uma série **inédita e totalmente diferente** das anteriores (listadas em `SERIE_ATUAL.md` > "Séries encerradas"): outro gênero ou subgênero, outro lugar, outra época, outro protagonista e outro elenco, outras regras do mundo. Nada de continuação, spin-off ou personagens reaproveitados, a não ser que o usuário peça. Ideias originais; não copiar obras existentes.
-2. Escrever num doc novo (Docs) e na pasta `serie-<slug>/`: `BIBLIA.md` (premissa em 1 frase, formato, elenco com marca visual, regras do mundo, visual e som, 5 arcos de 9) e `ROTEIROS.md` com os **45 episódios** narrados completos (110–150 palavras cada, gancho nos 3 primeiros segundos, acontecimentos, gancho para o próximo e pergunta final para os comentários, português natural sem gírias, frases ligadas, números por extenso, nada de violência gráfica).
+2. Escrever num doc novo (Docs) e na pasta `serie-<slug>/`: `BIBLIA.md` (premissa em 1 frase, formato, elenco com marca visual, regras do mundo, visual e som, 5 arcos de 9) e `ROTEIROS.md` com os **45 episódios** narrados completos (110–150 palavras cada, cada um começando exatamente onde o anterior terminou e respondendo ao gancho dele, gancho nos 3 primeiros segundos, acontecimentos, gancho para o próximo e pergunta final para os comentários, português natural sem gírias, frases ligadas, números por extenso, nada de violência gráfica).
 3. Atualizar `SERIE_ATUAL.md` (mover a anterior para "Séries encerradas" com as datas) e criar os personagens novos no `engine/cine/personagem.js` (folha de teste com 3 poses).
 4. Se o usuário estiver presente, mostrar a premissa e o elenco antes de escrever os 45; em execução agendada, seguir e avisar no fim.
 
@@ -61,10 +61,12 @@ Quando o último episódio da série atual já foi produzido (ou o usuário pedi
 
 - Uma voz só (VoiceStudio "Lucas") em todas as séries, narração grave de narrador; nunca regerar a voz por conta própria.
 - Nada de violência gráfica: a ameaça vem do som, da sombra e da reação.
-- Continuidade: o que aconteceu num episódio aparece igual no seguinte; conferir a bíblia.
+- **Continuação direta:** cada episódio começa exatamente onde o anterior parou e responde ao gancho/pergunta dele na primeira frase; o primeiro plano retoma o lugar e os personagens do último plano do anterior. Sem salto de tempo ou de lugar sem explicar. O que aconteceu num episódio aparece igual no seguinte; conferir a bíblia.
 - Cada correção do usuário vira regra nova em "Regras aprendidas" e na bíblia.
 
 ## Regras aprendidas
+
+- (17/11/2026) Cada episódio tem que ser continuação direta do anterior (ver seção 7).
 
 - (17/11/2026) A narração tem que ser voz masculina grossa de narrador: voz fixa VoiceStudio "Lucas" (não usar VoxCPM2).
 

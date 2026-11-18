@@ -17,17 +17,17 @@ Todos os semáforos de Belo Horizonte piscavam amarelo, e na esquina da Rua da B
 Você teria coragem de descer aquela ladeira em silêncio?
 
 ### EP. 03 — A ronda
-A Dra. Marta examinou o braço do Seu Osvaldo e não precisou dizer nada, porque a marca era de dentes humanos. Ele mesmo pediu pra ficar trancado no fundo do ônibus, atrás da catraca, e por dez minutos ninguém falou, até que ele parou de tossir. Então o Seu Osvaldo se levantou, acendeu a lanterna e começou a andar pelo corredor, ida e volta, ida e volta, exatamente como fazia nas rondas do shopping. A Dona Zélia apertou a faca dentro da bolsa, mas o Bento teve outra ideia: abriu a porta de trás numa curva, e o Seu Osvaldo desceu sozinho, seguindo a própria ronda, sem nem olhar pra trás.
+Lá embaixo, com o ônibus parado no escuro, a Dra. Marta examinou o braço do Seu Osvaldo e não precisou dizer nada, porque a marca era de dentes humanos. Ele mesmo pediu pra ficar trancado no fundo do ônibus, atrás da catraca, e por dez minutos ninguém falou, até que ele parou de tossir. Então o Seu Osvaldo se levantou, acendeu a lanterna e começou a andar pelo corredor, ida e volta, ida e volta, exatamente como fazia nas rondas do shopping. A Dona Zélia apertou a faca dentro da bolsa, mas o Bento teve outra ideia: abriu a porta de trás numa curva, e o Seu Osvaldo desceu sozinho, seguindo a própria ronda, sem nem olhar pra trás.
 
 Você teria aberto aquela porta ou feito outra coisa?
 
 ### EP. 04 — Três por cento
-O celular do Kauã estava com três por cento de bateria quando chegou a última mensagem da mãe dele, e às três e meia a rede caiu na cidade inteira. O Bento abriu o mapa de papel da empresa e mostrou o único lugar que importava pra ele, Ouro Preto, a noventa e oito quilômetros, onde a filha dele, a Júlia, dormia na casa da avó. A Nina, a DJ, lembrou que a caixa de som dela tinha seis horas de bateria e podia atrair aquelas coisas pra longe, e o grupo inteiro, pela primeira vez, concordou com um plano. Foi nessa hora que a luz do combustível acendeu no painel.
+Com a porta fechada de novo e o Seu Osvaldo sumindo no retrovisor, o celular do Kauã vibrou com três por cento de bateria e a última mensagem da mãe dele, e às três e meia a rede caiu na cidade inteira. O Bento abriu o mapa de papel da empresa e mostrou o único lugar que importava pra ele, Ouro Preto, a noventa e oito quilômetros, onde a filha dele, a Júlia, dormia na casa da avó. A Nina, a DJ, lembrou que a caixa de som dela tinha seis horas de bateria e podia atrair aquelas coisas pra longe, e o grupo inteiro, pela primeira vez, concordou com um plano. Foi nessa hora que a luz do combustível acendeu no painel.
 
 E você, seguiria o Bento até Ouro Preto?
 
 ### EP. 05 — O frentista
-No posto do Anel Rodoviário, o frentista ainda estava trabalhando, passando pano no chão da mesma bomba, de um lado pro outro, com o uniforme rasgado e os olhos brancos. O Bento parou o ônibus do lado oposto, e o Kauã encheu o tanque em silêncio, contando os litros no visor, enquanto a Marta vigiava o frentista que não parava de passar o pano. Faltavam vinte litros quando o celular da Dona Zélia, que todo mundo achava que estava sem sinal, tocou alto com a música que o neto tinha colocado de toque. O frentista parou de limpar e virou o rosto na direção deles, e, atrás da loja de conveniência, outros vinte viraram junto.
+Com a luz do combustível acesa, o Bento entrou no primeiro posto do Anel Rodoviário, onde o frentista ainda estava trabalhando, passando pano no chão da mesma bomba, de um lado pro outro, com o uniforme rasgado e os olhos brancos. O Bento parou o ônibus do lado oposto, e o Kauã encheu o tanque em silêncio, contando os litros no visor, enquanto a Marta vigiava o frentista que não parava de passar o pano. Faltavam vinte litros quando o celular da Dona Zélia, que todo mundo achava que estava sem sinal, tocou alto com a música que o neto tinha colocado de toque. O frentista parou de limpar e virou o rosto na direção deles, e, atrás da loja de conveniência, outros vinte viraram junto.
 
 Você arrancaria ou terminaria de encher o tanque?
 
@@ -54,7 +54,7 @@ Você falaria a verdade sobre o Seu Osvaldo?
 ## Arco 2 — A Garagem (eps. 10–18)
 
 ### EP. 10 — Quarentena
-O homem do colete laranja era o Válter, o gerente que tinha descontado do salário do Bento cada minuto de atraso nos últimos três anos, e agora mandava em vinte e três sobreviventes dentro da garagem. A regra dele era simples: todo mundo que chegava passava uma hora trancado dentro do ônibus 1040, com as portas lacradas por fora, antes de pisar no pátio. O Bento aceitou, a Nina reclamou e a Dona Zélia pediu só um copo d'água. Faltando vinte minutos pro fim da quarentena, a Marta segurou o pulso do Kauã e encontrou três riscos vermelhos no antebraço dele.
+O Bento respondeu que ninguém, porque o único mordido tinha ficado pra trás, e o homem do colete laranja abriu o portão: era o Válter, o gerente que tinha descontado do salário do Bento cada minuto de atraso nos últimos três anos, e agora mandava em vinte e três sobreviventes dentro da garagem. A regra dele era simples: todo mundo que chegava passava uma hora trancado dentro do ônibus 1040, com as portas lacradas por fora, antes de pisar no pátio. O Bento aceitou, a Nina reclamou e a Dona Zélia pediu só um copo d'água. Faltando vinte minutos pro fim da quarentena, a Marta segurou o pulso do Kauã e encontrou três riscos vermelhos no antebraço dele.
 
 Você contaria pro Válter o que a Marta viu?
 
@@ -64,12 +64,12 @@ O Kauã jurou que tinha se arranhado na escova do lava-jato, e por quarenta minu
 Você aceitaria as regras do Válter pra ficar seguro?
 
 ### EP. 12 — O ônibus blindado
-A garagem tinha quarenta e um ônibus, doze mil litros de diesel e o Tião, um mecânico de sessenta e um anos que soldava grade de aço nas janelas e um para-choque de trilho de trem na frente dos ônibus. O Bento viu ali o caminho até Ouro Preto e pediu um ônibus blindado e quatrocentos litros de diesel pra buscar a filha. O Válter respondeu na frente de todo mundo que ônibus era patrimônio da empresa e que, enquanto ele estivesse vivo, nenhum saía daquele pátio. Naquela noite, o Tião chamou o Bento no galpão e mostrou o 1040 com grade nova nas janelas.
+Enquanto lavava o primeiro ônibus da fila, o Bento contou o que a garagem tinha: quarenta e um ônibus, doze mil litros de diesel e o Tião, um mecânico de sessenta e um anos que soldava grade de aço nas janelas e um para-choque de trilho de trem na frente dos ônibus. O Bento viu ali o caminho até Ouro Preto e pediu um ônibus blindado e quatrocentos litros de diesel pra buscar a filha. O Válter respondeu na frente de todo mundo que ônibus era patrimônio da empresa e que, enquanto ele estivesse vivo, nenhum saía daquele pátio. Naquela noite, o Tião chamou o Bento no galpão e mostrou o 1040 com grade nova nas janelas.
 
 Você pegaria o ônibus escondido do Válter?
 
 ### EP. 13 — Oito graus
-A Marta passou duas noites anotando a temperatura e a velocidade dos repetidores que andavam do lado de fora do muro, com um termômetro de geladeira preso no portão. Com quinze graus eles ficavam lentos, com dez quase não tiravam o pé do chão, e com oito graus paravam de vez, em pé, como estátuas. O Kauã lembrou que a dois quilômetros dali havia um frigorífico com câmaras frias a menos dezoito graus, cheias de comida. O plano saiu na mesma hora, e o Válter só aprovou com uma condição: o Bento ia junto.
+O Bento não pegou o 1040 naquela noite, porque a Marta chamou todo mundo no portão: ela tinha passado horas anotando a temperatura e a velocidade dos repetidores que andavam do lado de fora do muro, com um termômetro de geladeira preso no portão. Com quinze graus eles ficavam lentos, com dez quase não tiravam o pé do chão, e com oito graus paravam de vez, em pé, como estátuas. O Kauã lembrou que a dois quilômetros dali havia um frigorífico com câmaras frias a menos dezoito graus, cheias de comida. O plano saiu na mesma hora, e o Válter só aprovou com uma condição: o Bento ia junto.
 
 Você entraria numa câmara fria cheia de repetidores?
 
@@ -79,12 +79,12 @@ Você entraria numa câmara fria cheia de repetidores?
 Você voltaria pra buscar a última caixa?
 
 ### EP. 15 — A lista
-De volta à garagem, o Kauã foi carregar o celular no escritório e encontrou um rádio PX escondido na gaveta do Válter, ligado na mesma frequência da voz que chamava as pessoas pra represa. Ao lado do rádio havia uma lista escrita à mão com os nomes de quem a represa aceitaria buscar, só gente útil: o mecânico, a médica, dois eletricistas e o próprio Válter. O nome da Dona Zélia não estava lá, nem o do Bento, nem o da Nina. O caminhão da represa chegava em três noites, e o Válter estava parado na porta do escritório olhando pro Kauã.
+O repetidor piscou, mas não deu nem um passo, e eles saíram com as caixas pela porta de carga. De volta à garagem, o Kauã foi carregar o celular no escritório e encontrou um rádio PX escondido na gaveta do Válter, ligado na mesma frequência da voz que chamava as pessoas pra represa. Ao lado do rádio havia uma lista escrita à mão com os nomes de quem a represa aceitaria buscar, só gente útil: o mecânico, a médica, dois eletricistas e o próprio Válter. O nome da Dona Zélia não estava lá, nem o do Bento, nem o da Nina. O caminhão da represa chegava em três noites, e o Válter estava parado na porta do escritório olhando pro Kauã.
 
 Você mostraria a lista pro resto da garagem?
 
 ### EP. 16 — A chuva
-A discussão sobre a lista virou gritaria no pátio, e ninguém percebeu que a chuva começava a cair forte sobre Belo Horizonte, abafando todos os outros sons. Do lado de fora, um carro parado no barranco começou a disparar o alarme com a água, e centenas de repetidores desceram a rua na direção do barulho, empurrando uns aos outros contra o muro da garagem. O muro de trás, perto do lavador de ônibus, tinha sido feito nos anos setenta. Às duas e dez da madrugada, ele cedeu inteiro.
+O Kauã não esperou o Válter falar e saiu correndo com a lista pro pátio, onde a discussão virou gritaria, e ninguém percebeu que a chuva começava a cair forte sobre Belo Horizonte, abafando todos os outros sons. Do lado de fora, um carro parado no barranco começou a disparar o alarme com a água, e centenas de repetidores desceram a rua na direção do barulho, empurrando uns aos outros contra o muro da garagem. O muro de trás, perto do lavador de ônibus, tinha sido feito nos anos setenta. Às duas e dez da madrugada, ele cedeu inteiro.
 
 Você correria pros ônibus ou pro escritório?
 
@@ -101,12 +101,12 @@ Você teria saído da garagem com o Bento?
 ## Arco 3 — A Estrada (eps. 19–27)
 
 ### EP. 19 — O pedágio
-A BR-040 estava tomada por carros abandonados com as portas abertas por quilômetros, e o para-choque de trilho do Tião empurrava um por um pro acostamento, a vinte por hora. No pedágio, as cabines continuavam ocupadas: cada repetidor estendia a mão pela janelinha, esperando um pagamento que nunca vinha, e o vento balançava as cancelas. Só havia uma pista livre, e a cancela dela estava abaixada. O Kauã desceu pra levantá-la com a mão, e, quando ela subiu fazendo um rangido de ferro, as mãos de todas as cabines viraram na direção dele.
+Vinte minutos depois de deixar a garagem, o 1040 entrou na BR-040, tomada por carros abandonados com as portas abertas por quilômetros, e o para-choque de trilho do Tião empurrava um por um pro acostamento, a vinte por hora. No pedágio, as cabines continuavam ocupadas: cada repetidor estendia a mão pela janelinha, esperando um pagamento que nunca vinha, e o vento balançava as cancelas. Só havia uma pista livre, e a cancela dela estava abaixada. O Kauã desceu pra levantá-la com a mão, e, quando ela subiu fazendo um rangido de ferro, as mãos de todas as cabines viraram na direção dele.
 
 Você desceria pra levantar aquela cancela?
 
 ### EP. 20 — O baú gelado
-Depois do pedágio, o ponteiro do diesel começou a descer rápido, e o Tião descobriu o motivo: um furo no tanque, feito pelos ferros da cancela. A Marta calculou que tinham combustível pra mais trinta quilômetros, e Ouro Preto ainda estava a sessenta. Na curva seguinte, encontraram uma carreta frigorífica parada com o motor ligado e o baú zumbindo, ainda gelando a menos vinte graus. Em cima da cabine, uma mulher de chapéu de palha segurava uma barra de ferro e gritava que aquela carreta tinha dona.
+O Kauã pulou de volta no ônibus antes da primeira mão chegar perto, e o Tião passou pela cancela, mas logo depois do pedágio o ponteiro do diesel começou a descer rápido, e o Tião descobriu o motivo: um furo no tanque, feito pelos ferros da cancela. A Marta calculou que tinham combustível pra mais trinta quilômetros, e Ouro Preto ainda estava a sessenta. Na curva seguinte, encontraram uma carreta frigorífica parada com o motor ligado e o baú zumbindo, ainda gelando a menos vinte graus. Em cima da cabine, uma mulher de chapéu de palha segurava uma barra de ferro e gritava que aquela carreta tinha dona.
 
 Você tentaria negociar com ela ou seguiria em frente?
 
@@ -116,7 +116,7 @@ A mulher se chamava Rosa, caminhoneira há vinte e dois anos, e estava em cima d
 Você confiaria na Rosa?
 
 ### EP. 22 — A ponte
-O comboio chegou à ponte sobre o Rio das Velhas quando o sol já nascia, e a ponte estava tomada por uma multidão de repetidores que esquentavam e ficavam mais rápidos a cada minuto. Não dava pra passar de dia, e não havia onde esconder um ônibus e uma carreta na beira da estrada. O Kauã abriu o mapa e achou a entrada de uma mina antiga a três quilômetros, onde a temperatura ficava em dezesseis graus o ano inteiro. Eles entraram na galeria com os faróis apagados, e, no fundo da mina, o rádio do ônibus começou a pegar a mesma voz de mulher.
+Ninguém tinha marca nas mãos, e o comboio seguiu até a ponte sobre o Rio das Velhas, onde chegou quando o sol já nascia, e a ponte estava tomada por uma multidão de repetidores que esquentavam e ficavam mais rápidos a cada minuto. Não dava pra passar de dia, e não havia onde esconder um ônibus e uma carreta na beira da estrada. O Kauã abriu o mapa e achou a entrada de uma mina antiga a três quilômetros, onde a temperatura ficava em dezesseis graus o ano inteiro. Eles entraram na galeria com os faróis apagados, e, no fundo da mina, o rádio do ônibus começou a pegar a mesma voz de mulher.
 
 Você passaria o dia dentro de uma mina escura?
 
@@ -148,7 +148,7 @@ Você iria pra represa mesmo sabendo do teste?
 ## Arco 4 — A Represa (eps. 28–36)
 
 ### EP. 28 — A câmera térmica
-A Represa do Rio Manso era uma península cercada de água e de uma muralha de contêineres empilhados, com luz elétrica vinda das turbinas e seiscentas pessoas morando lá dentro. Na entrada, uma mulher de capacete branco, a Dona Iracema, engenheira da barragem havia trinta anos, apontava uma câmera térmica pra cada rosto da fila. O Bento passou, a Marta passou, o Kauã e a Nina passaram, e até o Pastel passou. Quando a câmera chegou no Tião, a tela ficou vermelha, e dois guardas fecharam o portão com ele e a Rosa do lado de fora.
+Naquela mesma noite, o comboio chegou à Represa do Rio Manso, uma península cercada de água e de uma muralha de contêineres empilhados, com luz elétrica vinda das turbinas e seiscentas pessoas morando lá dentro. Na entrada, uma mulher de capacete branco, a Dona Iracema, engenheira da barragem havia trinta anos, apontava uma câmera térmica pra cada rosto da fila. O Bento passou, a Marta passou, o Kauã e a Nina passaram, e até o Pastel passou. Quando a câmera chegou no Tião, a tela ficou vermelha, e dois guardas fecharam o portão com ele e a Rosa do lado de fora.
 
 Você entraria e deixaria os dois lá fora?
 
@@ -163,22 +163,22 @@ A Júlia contou que a vó Lurdes tinha sido "transferida" para a enfermaria fazi
 Você conseguiria dormir num lugar cercado por eles?
 
 ### EP. 31 — Sala 7
-A Marta foi aceita na enfermaria no segundo dia, por ser médica, e recebeu um crachá que abria todas as portas, menos uma, a Sala 7, no fim do corredor. Ela reparou que a Dona Iracema entrava lá duas vezes por dia, sempre com uma caixa térmica, e saía com tubos de ensaio cheios de sangue escuro. Na lixeira do corredor, a Marta achou uma etiqueta rasgada de um desses tubos, com um nome escrito à mão e a palavra "doadora". O nome era Lurdes Arruda.
+Na manhã seguinte, a Marta foi aceita na enfermaria, por ser médica, e recebeu um crachá que abria todas as portas, menos uma, a Sala 7, no fim do corredor. Ela reparou que a Dona Iracema entrava lá duas vezes por dia, sempre com uma caixa térmica, e saía com tubos de ensaio cheios de sangue escuro. Na lixeira do corredor, a Marta achou uma etiqueta rasgada de um desses tubos, com um nome escrito à mão e a palavra "doadora". O nome era Lurdes Arruda.
 
 Você contaria pro Bento agora ou investigaria primeiro?
 
 ### EP. 32 — A imune
-O Kauã e a Nina entraram na Sala 7 durante a troca de turno, usando o crachá da Marta e um apagão de dez segundos que a Nina provocou no quadro de luz. Lá dentro havia doze camas, doze pessoas acordadas e amarradas pelos pulsos, todas com marcas de mordida antigas no braço ou no pescoço, e nenhuma delas tinha se transformado. Na cama do canto, a vó Lurdes segurava o terço com a mão livre e reconheceu o desenho da Júlia no braço do Kauã. Ela tinha sido mordida fazia vinte e dois dias.
+A Marta contou só pro Kauã e pra Nina, e naquela mesma noite os dois entraram na Sala 7 durante a troca de turno, usando o crachá da Marta e um apagão de dez segundos que a Nina provocou no quadro de luz. Lá dentro havia doze camas, doze pessoas acordadas e amarradas pelos pulsos, todas com marcas de mordida antigas no braço ou no pescoço, e nenhuma delas tinha se transformado. Na cama do canto, a vó Lurdes segurava o terço com a mão livre e reconheceu o desenho da Júlia no braço do Kauã. Ela tinha sido mordida fazia vinte e dois dias.
 
 Você tiraria a vó Lurdes de lá naquela hora?
 
 ### EP. 33 — O soro
-Na manhã seguinte, a Dona Iracema chamou o Bento e a Marta para o escritório da barragem, porque já sabia da visita à Sala 7. Ela explicou com calma que uma pessoa em cada mil era imune, e que o sangue dos imunes, misturado com outros remédios, fazia um soro que deixava os repetidores lentos mesmo no calor. Era esse soro que protegia os guardas na muralha, e era por isso que os doze ficavam amarrados. Ela fechou a pasta e disse que a segurança de seiscentas pessoas valia mais que a liberdade de doze.
+Os dois saíram da Sala 7 antes de a luz voltar, mas na manhã seguinte a Dona Iracema chamou o Bento e a Marta para o escritório da barragem, porque já sabia da visita à Sala 7. Ela explicou com calma que uma pessoa em cada mil era imune, e que o sangue dos imunes, misturado com outros remédios, fazia um soro que deixava os repetidores lentos mesmo no calor. Era esse soro que protegia os guardas na muralha, e era por isso que os doze ficavam amarrados. Ela fechou a pasta e disse que a segurança de seiscentas pessoas valia mais que a liberdade de doze.
 
 Você concorda com a Dona Iracema?
 
 ### EP. 34 — Do lado de fora
-Do lado de fora da muralha, a febre do Tião baixou no quinto dia, porque a Rosa tinha achado antibiótico num posto de saúde abandonado, e o corte de galho, finalmente, era só um corte de galho. Os dois passavam as noites na carreta, no alto do morro, com o rádio PX ligado na frequência da represa, ouvindo tudo o que os guardas falavam. Foi assim que eles ouviram a Dona Iracema anunciar no rádio que uma nova doadora tinha sido identificada no Setor C, com nove anos de idade, e seria transferida no dia seguinte, às seis da manhã.
+Naquela mesma noite, do lado de fora da muralha, a febre do Tião finalmente tinha baixado, porque a Rosa tinha achado antibiótico num posto de saúde abandonado, e o corte de galho, finalmente, era só um corte de galho. Os dois passavam as noites na carreta, no alto do morro, com o rádio PX ligado na frequência da represa, ouvindo tudo o que os guardas falavam. Foi assim que eles ouviram a Dona Iracema anunciar no rádio que uma nova doadora tinha sido identificada no Setor C, com nove anos de idade, e seria transferida no dia seguinte, às seis da manhã.
 
 O que você faria no lugar do Tião e da Rosa?
 
@@ -215,7 +215,7 @@ O Bento não entrou no ônibus, só encostou a mão no vidro, do lado do xale ve
 Você perdoaria o Válter?
 
 ### EP. 41 — O teste
-O laboratório ficava num prédio de quatro andares com gerador próprio, e o ar condicionado das salas frias ainda funcionava, mantendo os repetidores lá dentro quase parados. A Marta trabalhou trinta horas seguidas com o sangue da vó Lurdes e da Júlia, uma gota de cada, e fez a primeira dose de soro numa seringa de vidro. Para testar, a Rosa abriu o baú da carreta, onde um repetidor estava congelado em pé desde Ouro Preto, e o Tião o prendeu com cintas de carga. A Marta aplicou a dose no braço dele, e a Rosa desligou o frio do baú.
+Com o tanque cheio e a chave do Válter no bolso, o Bento levou todo mundo até o laboratório, um prédio de quatro andares com gerador próprio, e o ar condicionado das salas frias ainda funcionava, mantendo os repetidores lá dentro quase parados. A Marta trabalhou trinta horas seguidas com o sangue da vó Lurdes e da Júlia, uma gota de cada, e fez a primeira dose de soro numa seringa de vidro. Para testar, a Rosa abriu o baú da carreta, onde um repetidor estava congelado em pé desde Ouro Preto, e o Tião o prendeu com cintas de carga. A Marta aplicou a dose no braço dele, e a Rosa desligou o frio do baú.
 
 Você ficaria perto quando ele descongelasse?
 

@@ -5,6 +5,7 @@ Bento Arruda, 34 anos, motorista da linha noturna de Belo Horizonte, está com s
 - **Canal:** New Omega History (série original de ficção; não é história real, então não precisa de PESQUISA.md nem de fontes).
 - **Formato:** 45 Shorts verticais 9:16 de 45–60 s (~110–150 palavras), em 5 arcos de 9. Gancho nos 3 primeiros segundos → acontecimentos → gancho para o próximo + pergunta nos comentários. Na tela, "EP. NN/45" no canto, nunca narrado.
 - **Voz:** VoiceStudio "Lucas" (masculina, grave), crédito "🎙️ Voz: Lucas por iluucasz (CC BY 4.0)" em toda descrição.
+- **Continuidade (regra do usuário, 17/11/2026):** cada episódio é continuação direta do anterior: começa exatamente onde o outro parou, responde ao gancho/pergunta dele e o primeiro plano retoma o último lugar e os mesmos personagens. Sem salto de tempo ou de lugar sem explicar na primeira frase. Vale a partir do EP. 03 (EP. 01 e 02 já postados como estão).
 - **Roteiros:** `ROTEIROS.md` (cópia do doc https://claude.ai/artifact/56SDekp8fx4AhR87ABjXNk).
 
 ## Elenco (ids no `engine/cine/personagem.js`)
@@ -53,5 +54,5 @@ Estilo cinematográfico (contorno de nanquim, sombra em 2 tons, luz de recorte, 
 
 | EP | Status | Data de postagem | Pasta |
 | --- | --- | --- | --- |
-| 01 | produzido (17/11/2026) | postar 17/11/2026 | `projetos/ultima-linha/ep01` |
-| 02 | produzido (17/11/2026) | — | `projetos/ultima-linha/ep02` |
+| 01 | postado (17/11/2026) | 17/11/2026 | `projetos/ultima-linha/ep01` |
+| 02 | postado (17/11/2026) | 17/11/2026 | `projetos/ultima-linha/ep02` |
